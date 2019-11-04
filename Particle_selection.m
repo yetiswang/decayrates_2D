@@ -3,9 +3,9 @@
 clear all
 close all
 %%
-diameter = [ 10 10 10 10 60 60 60 60  ];
-height = [  20 25 28 30 125 127 129 130];
-epstab = { epsconst( 1.33^2 ), epstable( 'silver.dat' ) };
+diameter = [ 15 20 25 30 35 40 45 55 60 ];
+height = [  40 52 63 73 82 90 97 109 114 ];
+epstab = { epsconst( 1.33^2 ), epstable( 'gold.dat' ) };
 
 parent = pwd;
 for i = 1 : length(height)
